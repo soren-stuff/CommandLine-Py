@@ -7,13 +7,7 @@ while RunCommandLine == True:
     currentCommand = input(str(pathlib.Path(__file__).parent.resolve()) + ">")
     commandUsed = currentCommand.split()[0]
     match commandUsed:
-        case "open":
-            commandList.openFunc()
+        case "read":
+            commandList.readFunc()
         case _:
-            print("test")
-        
-#    if commandUsed == "open":
- #       fileDirectory = currentCommand.split()[1]
-  #      f = open(fileDirectory)
-   # else:
-    #    print("Command not recognized. Check your spelling, or check that it is a real command")
+            print("Command not recognized '" + commandUsed + "' - Did you misspell a command, or does the command not exist?")
