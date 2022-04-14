@@ -1,2 +1,4 @@
-# CommandLine-Py
-Command Line I am making in Python. Will be public soon, I've got a lot of work to do though.
+# CommandLine-Py.
+## A simple command line written in Python.
+
+Was made to experiment with Python stuff. Probably is really bad.
